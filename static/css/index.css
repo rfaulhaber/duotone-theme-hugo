@@ -1,0 +1,19 @@
+body {
+  background: #2a2634;
+  color: #c4b4ff;
+  font-family: "Fira Code", monospace;
+}
+
+h1::before {
+  content: "# ";
+}
+
+h2::before {
+  content: "## ";
+}
+
+h3::before {
+  content: "### ";
+}
+
+/*# sourceMappingURL=index.css.map */
