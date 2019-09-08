@@ -1,7 +1,36 @@
 body {
   background: #2a2634;
   color: #c4b4ff;
-  font-family: "Fira Code", monospace;
+  font-family: "Fira Mono", monospace;
+  text-rendering: geometricPrecision;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+pre {
+  border: unset;
+  border-top: 1px solid #c4b4ff;
+  border-bottom: 1px solid #c4b4ff;
+  background: #2a2634;
+  overflow: scroll;
+  color: #988bc7;
+}
+
+table {
+  color: #c4b4ff;
+}
+table tbody td {
+  color: #c4b4ff;
+}
+table tbody td:first-child {
+  color: #c4b4ff;
+  font-weight: bolder;
+}
+table tr {
+  color: #c4b4ff;
+}
+table tr th {
+  font-size: 14px;
 }
 
 h1::before {

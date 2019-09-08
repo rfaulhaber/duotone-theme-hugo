@@ -1,0 +1,10 @@
+{{partial "content-top.html" .}}
+<main id="main">
+    <div>
+        <h1 id="title">{{ .Title }}</h1>
+        {{ range .Pages }}
+        {{ .Render "summary"}}
+        {{ end }}
+    </div>
+</main>
+{{partial "content-bottom.html" .}}

@@ -1,7 +1,28 @@
 <html>
     {{partial "head.html" .}}
-    <body>
-        <h1>hello world</h1>
-        <p>this is some sample content</p>
+    <body lang="{{ .Site.LanguageCode }}">
+		<nav class="sidebar-nav">
+			{{ $currentPage := . }}
+			{{ range .Site.Menus.main }}
+			<a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}"
+				href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+			{{ end }}
+		</nav>
+
+        <section id="main">
+            <div>
+                <h1 id="title">{{ .Site.Title }} {{ .Site.Params.TitleEmoji | emojify }}</h1>
+                <ul>
+                    <!-- pages -->
+                    <!-- prettier-ignore -->
+                    {{ range .Pages }}
+                    <li>
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </li>
+                    <!-- prettier-ignore -->
+                    {{ end }}
+                </ul>
+            </div>
+        </section>
     </body>
 </html>

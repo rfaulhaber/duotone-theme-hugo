@@ -3,19 +3,13 @@
 
 name = "Duotone Dark"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
+licenselink = "https://github.com/rfaulhaber/duotone-dark-theme/blob/master/LICENSE"
+description = "a Hack-based, Duotone-inspired blog theme."
+# homepage = "http://example.com/"
 tags = []
 features = []
 min_version = "0.41"
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Ryan Faulhaber"
+  homepage = "ryanfaulhaber.com"
