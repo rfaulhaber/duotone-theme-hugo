@@ -2,13 +2,13 @@ $primary-color: #c4b4ff;
 $secondary-color: #2a2634;
 
 body {
-    background: #2a2634;
-    color: $primary-color;
-    // font-family: 'Fira Sans', sans-serif;
-    font-family: 'Fira Mono', monospace;
-    text-rendering: geometricPrecision;
-    max-width: 600px;
-    margin: 0 auto;
+	background: #2a2634;
+	color: $primary-color;
+	// font-family: 'Fira Sans', sans-serif;
+	font-family: 'Fira Mono', monospace;
+	text-rendering: geometricPrecision;
+	max-width: 600px;
+	margin: 0 auto;
 }
 
 // a {
@@ -16,45 +16,45 @@ body {
 // }
 
 pre {
-    border: unset;
-    border-top: 1px solid $primary-color;
-    border-bottom: 1px solid $primary-color;
-    background: $secondary-color;
-    overflow: scroll;
-    color: #988bc7;
+	border: unset;
+	border-top: 1px solid $primary-color;
+	border-bottom: 1px solid $primary-color;
+	background: $secondary-color;
+	overflow: scroll;
+	color: #988bc7;
 }
 
 table {
-    color: $primary-color;
+	color: $primary-color;
 
-    tbody {
-        td {
-            color: $primary-color;
-        }
+	tbody {
+		td {
+			color: $primary-color;
+		}
 
-        td:first-child {
-            color: $primary-color;
-            font-weight: bolder;
-        }
-    }
+		td:first-child {
+			color: $primary-color;
+			font-weight: bolder;
+		}
+	}
 
-    tr {
-        color: $primary-color;
+	tr {
+		color: $primary-color;
 
-        th {
-            font-size: 14px;
-        }
-    }
+		th {
+			font-size: 14px;
+		}
+	}
 }
 
 h1::before {
-    content: '# ';
+	content: '# ';
 }
 
 h2::before {
-    content: '## ';
+	content: '## ';
 }
 
 h3::before {
-    content: '### ';
+	content: '### ';
 }
