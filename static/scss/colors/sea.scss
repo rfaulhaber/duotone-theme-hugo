@@ -1,10 +1,84 @@
 // sea
-$uno-1: #d6e9ff;
-$uno-2: #88b4e7;
-$uno-3: #5d8cc0;
-$uno-4: #586f89;
-$uno-5: #444c55;
-$duo-1: #34febb;
-$duo-2: #32ae85;
-$duo-3: #42675a;
-$background: #1d262f;
+
+.sea-theme {
+	$uno-1: #d6e9ff;
+	$uno-2: #88b4e7;
+	$uno-3: #5d8cc0;
+	$uno-4: #586f89;
+	$uno-5: #444c55;
+	$duo-1: #34febb;
+	$duo-2: #32ae85;
+	$duo-3: #42675a;
+	$background: #1d262f;
+
+	body {
+		background: $background;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: $uno-1;
+	}
+
+	pre {
+		border-top: 1px solid $uno-2;
+		border-bottom: 1px solid $uno-2;
+		background: $background;
+	}
+
+	table {
+		color: $uno-2;
+
+		thead {
+			th {
+				color: $duo-1;
+			}
+		}
+
+		tbody {
+			td {
+				color: $uno-3;
+			}
+
+			td:first-child {
+				color: $uno-2;
+			}
+		}
+
+		tr {
+			color: $uno-2;
+		}
+	}
+
+	a {
+		color: $duo-2;
+		border-bottom: 1px solid $duo-3;
+	}
+
+	a:hover {
+		background-color: $duo-3;
+	}
+
+	p,
+	ol,
+	ul {
+		color: $uno-2;
+	}
+
+	blockquote,
+	cite {
+		color: $duo-1;
+	}
+
+	header {
+		color: $uno-1;
+	}
+
+	mark {
+		background: $duo-1;
+	}
+}

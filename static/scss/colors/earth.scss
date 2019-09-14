@@ -1,10 +1,84 @@
 // earth
-$uno-1: #ffdac2;
-$uno-2: #bd987f;
-$uno-3: #98755d;
-$uno-4: #705e51;
-$uno-5: #564b43;
-$duo-1: #fecb52;
-$duo-2: #b09045;
-$duo-3: #726546;
-$background: #2c2826;
+
+.earth-theme {
+	$uno-1: #ffdac2;
+	$uno-2: #bd987f;
+	$uno-3: #98755d;
+	$uno-4: #705e51;
+	$uno-5: #564b43;
+	$duo-1: #fecb52;
+	$duo-2: #b09045;
+	$duo-3: #726546;
+	$background: #2c2826;
+
+	body {
+		background: $background;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: $uno-1;
+	}
+
+	pre {
+		border-top: 1px solid $uno-2;
+		border-bottom: 1px solid $uno-2;
+		background: $background;
+	}
+
+	table {
+		color: $uno-2;
+
+		thead {
+			th {
+				color: $duo-1;
+			}
+		}
+
+		tbody {
+			td {
+				color: $uno-3;
+			}
+
+			td:first-child {
+				color: $uno-2;
+			}
+		}
+
+		tr {
+			color: $uno-2;
+		}
+	}
+
+	a {
+		color: $duo-2;
+		border-bottom: 1px solid $duo-3;
+	}
+
+	a:hover {
+		background-color: $duo-3;
+	}
+
+	p,
+	ol,
+	ul {
+		color: $uno-2;
+	}
+
+	blockquote,
+	cite {
+		color: $duo-1;
+	}
+
+	header {
+		color: $uno-1;
+	}
+
+	mark {
+		background: $duo-1;
+	}
+}

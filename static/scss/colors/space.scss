@@ -1,66 +1,83 @@
 // space
-$uno-1: #bebeef;
-$uno-2: #8686cb;
-$uno-3: #7272a1;
-$uno-4: #5b5b7b;
-$uno-5: #49495a;
-$duo-1: #fe7734;
-$duo-2: #b06845;
-$duo-3: #644c40;
-$background: #24242e;
-
 .space-theme {
-    body {
-        background: $background;
-    }
+	$uno-1: #bebeef;
+	$uno-2: #8686cb;
+	$uno-3: #7272a1;
+	$uno-4: #5b5b7b;
+	$uno-5: #49495a;
+	$duo-1: #fe7734;
+	$duo-2: #b06845;
+	$duo-3: #644c40;
+	$background: #24242e;
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        color: $uno-1;
-    }
+	body {
+		background: $background;
+	}
 
-    pre {
-        border-top: 1px solid $uno-2;
-        border-bottom: 1px solid $uno-2;
-        background: $background;
-    }
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: $uno-1;
+	}
 
-    table {
-        color: $uno-2;
+	pre {
+		border-top: 1px solid $uno-2;
+		border-bottom: 1px solid $uno-2;
+		background: $background;
+	}
 
-        tbody {
-            td {
-                color: $uno-2;
-            }
+	table {
+		color: $uno-2;
 
-            td:first-child {
-                color: $uno-2;
-            }
-        }
+		thead {
+			th {
+				color: $duo-1;
+			}
+		}
 
-        tr {
-            color: $uno-2;
-        }
-    }
+		tbody {
+			td {
+				color: $uno-3;
+			}
 
-    a {
-        color: $duo-1;
-        border-bottom: 1px solid $duo-3;
-    }
+			td:first-child {
+				color: $uno-2;
+			}
+		}
 
-    a :hover {
-        color: $duo-2;
-    }
+		tr {
+			color: $uno-2;
+		}
+	}
 
-    p {
-        color: $uno-3;
-    }
+	a {
+		color: $duo-2;
+		border-bottom: 1px solid $duo-3;
+	}
 
-    header {
-        color: $uno-2;
-    }
+	a:hover {
+		background-color: $duo-3;
+	}
+
+	p,
+	ol,
+	ul {
+		color: $uno-2;
+	}
+
+	blockquote,
+	cite {
+		color: $duo-1;
+	}
+
+	header {
+		color: $uno-1;
+	}
+
+	mark {
+		background: $duo-1;
+	}
 }

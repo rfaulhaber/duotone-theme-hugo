@@ -17,8 +17,11 @@
 .space-theme table {
   color: #8686cb;
 }
+.space-theme table thead th {
+  color: #fe7734;
+}
 .space-theme table tbody td {
-  color: #8686cb;
+  color: #7272a1;
 }
 .space-theme table tbody td:first-child {
   color: #8686cb;
@@ -27,17 +30,26 @@
   color: #8686cb;
 }
 .space-theme a {
-  color: #fe7734;
+  color: #b06845;
   border-bottom: 1px solid #644c40;
 }
-.space-theme a :hover {
-  color: #b06845;
+.space-theme a:hover {
+  background-color: #644c40;
 }
-.space-theme p {
-  color: #7272a1;
+.space-theme p,
+.space-theme ol,
+.space-theme ul {
+  color: #8686cb;
+}
+.space-theme blockquote,
+.space-theme cite {
+  color: #fe7734;
 }
 .space-theme header {
-  color: #8686cb;
+  color: #bebeef;
+}
+.space-theme mark {
+  background: #fe7734;
 }
 
 .sky-theme body {
@@ -59,14 +71,201 @@
 .sky-theme table {
   color: #cab2fa;
 }
+.sky-theme table thead th {
+  color: #fec38f;
+}
 .sky-theme table tbody td {
-  color: #cab2fa;
+  color: #ae91e8;
 }
 .sky-theme table tbody td:first-child {
   color: #cab2fa;
 }
 .sky-theme table tr {
   color: #cab2fa;
+}
+.sky-theme a {
+  color: #b07745;
+  border-bottom: 1px solid #765f4c;
+}
+.sky-theme a:hover {
+  background-color: #765f4c;
+}
+.sky-theme p,
+.sky-theme ol,
+.sky-theme ul {
+  color: #cab2fa;
+}
+.sky-theme blockquote,
+.sky-theme cite {
+  color: #fec38f;
+}
+.sky-theme header {
+  color: #f1ebff;
+}
+.sky-theme mark {
+  background: #fec38f;
+}
+
+.earth-theme body {
+  background: #2c2826;
+}
+.earth-theme h1,
+.earth-theme h2,
+.earth-theme h3,
+.earth-theme h4,
+.earth-theme h5,
+.earth-theme h6 {
+  color: #ffdac2;
+}
+.earth-theme pre {
+  border-top: 1px solid #bd987f;
+  border-bottom: 1px solid #bd987f;
+  background: #2c2826;
+}
+.earth-theme table {
+  color: #bd987f;
+}
+.earth-theme table thead th {
+  color: #fecb52;
+}
+.earth-theme table tbody td {
+  color: #98755d;
+}
+.earth-theme table tbody td:first-child {
+  color: #bd987f;
+}
+.earth-theme table tr {
+  color: #bd987f;
+}
+.earth-theme a {
+  color: #b09045;
+  border-bottom: 1px solid #726546;
+}
+.earth-theme a:hover {
+  background-color: #726546;
+}
+.earth-theme p,
+.earth-theme ol,
+.earth-theme ul {
+  color: #bd987f;
+}
+.earth-theme blockquote,
+.earth-theme cite {
+  color: #fecb52;
+}
+.earth-theme header {
+  color: #ffdac2;
+}
+.earth-theme mark {
+  background: #fecb52;
+}
+
+.sea-theme body {
+  background: #1d262f;
+}
+.sea-theme h1,
+.sea-theme h2,
+.sea-theme h3,
+.sea-theme h4,
+.sea-theme h5,
+.sea-theme h6 {
+  color: #d6e9ff;
+}
+.sea-theme pre {
+  border-top: 1px solid #88b4e7;
+  border-bottom: 1px solid #88b4e7;
+  background: #1d262f;
+}
+.sea-theme table {
+  color: #88b4e7;
+}
+.sea-theme table thead th {
+  color: #34febb;
+}
+.sea-theme table tbody td {
+  color: #5d8cc0;
+}
+.sea-theme table tbody td:first-child {
+  color: #88b4e7;
+}
+.sea-theme table tr {
+  color: #88b4e7;
+}
+.sea-theme a {
+  color: #32ae85;
+  border-bottom: 1px solid #42675a;
+}
+.sea-theme a:hover {
+  background-color: #42675a;
+}
+.sea-theme p,
+.sea-theme ol,
+.sea-theme ul {
+  color: #88b4e7;
+}
+.sea-theme blockquote,
+.sea-theme cite {
+  color: #34febb;
+}
+.sea-theme header {
+  color: #d6e9ff;
+}
+.sea-theme mark {
+  background: #34febb;
+}
+
+.forest-theme body {
+  background: #2a2d2a;
+}
+.forest-theme h1,
+.forest-theme h2,
+.forest-theme h3,
+.forest-theme h4,
+.forest-theme h5,
+.forest-theme h6 {
+  color: #ddf8dd;
+}
+.forest-theme pre {
+  border-top: 1px solid #a9bca9;
+  border-bottom: 1px solid #a9bca9;
+  background: #2a2d2a;
+}
+.forest-theme table {
+  color: #a9bca9;
+}
+.forest-theme table thead th {
+  color: #e7f98b;
+}
+.forest-theme table tbody td {
+  color: #869886;
+}
+.forest-theme table tbody td:first-child {
+  color: #a9bca9;
+}
+.forest-theme table tr {
+  color: #a9bca9;
+}
+.forest-theme a {
+  color: #99a659;
+  border-bottom: 1px solid #747a52;
+}
+.forest-theme a:hover {
+  background-color: #747a52;
+}
+.forest-theme p,
+.forest-theme ol,
+.forest-theme ul {
+  color: #a9bca9;
+}
+.forest-theme blockquote,
+.forest-theme cite {
+  color: #e7f98b;
+}
+.forest-theme header {
+  color: #ddf8dd;
+}
+.forest-theme mark {
+  background: #e7f98b;
 }
 
 body {

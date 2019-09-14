@@ -1,10 +1,84 @@
 // forest
-$uno-1: #ddf8dd;
-$uno-2: #a9bca9;
-$uno-3: #869886;
-$uno-4: #738273;
-$uno-5: #585f58;
-$duo-1: #e7f98b;
-$duo-2: #99a659;
-$duo-3: #747a52;
-$background: #2a2d2a;
+
+.forest-theme {
+	$uno-1: #ddf8dd;
+	$uno-2: #a9bca9;
+	$uno-3: #869886;
+	$uno-4: #738273;
+	$uno-5: #585f58;
+	$duo-1: #e7f98b;
+	$duo-2: #99a659;
+	$duo-3: #747a52;
+	$background: #2a2d2a;
+
+	body {
+		background: $background;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: $uno-1;
+	}
+
+	pre {
+		border-top: 1px solid $uno-2;
+		border-bottom: 1px solid $uno-2;
+		background: $background;
+	}
+
+	table {
+		color: $uno-2;
+
+		thead {
+			th {
+				color: $duo-1;
+			}
+		}
+
+		tbody {
+			td {
+				color: $uno-3;
+			}
+
+			td:first-child {
+				color: $uno-2;
+			}
+		}
+
+		tr {
+			color: $uno-2;
+		}
+	}
+
+	a {
+		color: $duo-2;
+		border-bottom: 1px solid $duo-3;
+	}
+
+	a:hover {
+		background-color: $duo-3;
+	}
+
+	p,
+	ol,
+	ul {
+		color: $uno-2;
+	}
+
+	blockquote,
+	cite {
+		color: $duo-1;
+	}
+
+	header {
+		color: $uno-1;
+	}
+
+	mark {
+		background: $duo-1;
+	}
+}
