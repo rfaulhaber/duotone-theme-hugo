@@ -1,83 +1,16 @@
+@import 'theme';
+
 // sky
 .sky-theme {
-	$uno-1: #f1ebff;
-	$uno-2: #cab2fa;
-	$uno-3: #ae91e8;
-	$uno-4: #715f95;
-	$uno-5: #544d60;
-	$duo-1: #fec38f;
-	$duo-2: #b07745;
-	$duo-3: #765f4c;
-	$background: #2c2734;
+    $uno-1: #f1ebff;
+    $uno-2: #cab2fa;
+    $uno-3: #ae91e8;
+    $uno-4: #715f95;
+    $uno-5: #544d60;
+    $duo-1: #fec38f;
+    $duo-2: #b07745;
+    $duo-3: #765f4c;
+    $background: #2c2734;
 
-	body {
-		background: $background;
-	}
-
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6 {
-		color: $uno-1;
-	}
-
-	pre {
-		border-top: 1px solid $uno-2;
-		border-bottom: 1px solid $uno-2;
-		background: $background;
-	}
-
-	table {
-		color: $uno-2;
-
-		thead {
-			th {
-				color: $duo-1;
-			}
-		}
-
-		tbody {
-			td {
-				color: $uno-3;
-			}
-
-			td:first-child {
-				color: $uno-2;
-			}
-		}
-
-		tr {
-			color: $uno-2;
-		}
-	}
-
-	a {
-		color: $duo-2;
-		border-bottom: 1px solid $duo-3;
-	}
-
-	a:hover {
-		background-color: $duo-3;
-	}
-
-	p,
-	ol,
-	ul {
-		color: $uno-2;
-	}
-
-	blockquote,
-	cite {
-		color: $duo-1;
-	}
-
-	header {
-		color: $uno-1;
-	}
-
-	mark {
-		background: $duo-1;
-	}
+    @include theme($uno-1, $uno-2, $uno-3, $uno-4, $uno-5, $duo-1, $duo-2, $duo-3, $background);
 }

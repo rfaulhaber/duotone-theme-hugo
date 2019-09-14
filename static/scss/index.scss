@@ -5,52 +5,55 @@
 @import 'colors/forest.scss';
 
 body {
-	font-family: 'Fira Mono', monospace;
-	text-rendering: geometricPrecision;
-	max-width: 600px;
-	margin: 0 auto;
+    font-family: 'Fira Mono', monospace;
+    text-rendering: geometricPrecision;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 pre {
-	border: unset;
-	overflow: scroll;
-	color: #988bc7;
+    border: unset;
+    overflow: scroll;
 }
 
 table {
-	tbody {
-		td:first-child {
-			font-weight: bolder;
-		}
-	}
+    tbody {
+        td:first-child {
+            font-weight: bolder;
+        }
+    }
 
-	tr {
-		th {
-			font-size: 14px;
-		}
-	}
+    tr {
+        th {
+            font-size: 14px;
+        }
+    }
+}
+
+p {
+    margin: 20px 0px;
 }
 
 h1::before {
-	content: '# ';
+    content: '# ';
 }
 
 h2::before {
-	content: '## ';
+    content: '## ';
 }
 
 h3::before {
-	content: '### ';
+    content: '### ';
 }
 
 h4::before {
-	content: '#### ';
+    content: '#### ';
 }
 
 h5::before {
-	content: '##### ';
+    content: '##### ';
 }
 
 h6::before {
-	content: '###### ';
+    content: '###### ';
 }

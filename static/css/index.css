@@ -13,43 +13,59 @@
   border-top: 1px solid #8686cb;
   border-bottom: 1px solid #8686cb;
   background: #24242e;
+  color: #8686cb;
+}
+.space-theme pre code {
+  color: #7272a1;
 }
 .space-theme table {
   color: #8686cb;
 }
 .space-theme table thead th {
-  color: #fe7734;
+  color: #bebeef;
 }
 .space-theme table tbody td {
-  color: #7272a1;
+  color: #8686cb;
 }
 .space-theme table tbody td:first-child {
-  color: #8686cb;
+  color: #bebeef;
 }
 .space-theme table tr {
   color: #8686cb;
 }
 .space-theme a {
-  color: #b06845;
-  border-bottom: 1px solid #644c40;
+  color: #fe7734;
+  border-bottom: 1px solid #b06845;
+}
+.space-theme a,
+.space-theme a:hover {
+  text-decoration: none;
 }
 .space-theme a:hover {
-  background-color: #644c40;
+  background-color: #b06845;
 }
 .space-theme p,
-.space-theme ol,
-.space-theme ul {
+.space-theme strong,
+.space-theme em,
+.space-theme ul,
+.space-theme ol {
   color: #8686cb;
 }
 .space-theme blockquote,
 .space-theme cite {
-  color: #fe7734;
+  color: #b06845;
 }
 .space-theme header {
-  color: #bebeef;
+  color: #8686cb;
 }
 .space-theme mark {
   background: #fe7734;
+}
+.space-theme code {
+  color: #7272a1;
+}
+.space-theme .post-meta {
+  color: #5b5b7b;
 }
 
 .sky-theme body {
@@ -67,43 +83,59 @@
   border-top: 1px solid #cab2fa;
   border-bottom: 1px solid #cab2fa;
   background: #2c2734;
+  color: #cab2fa;
+}
+.sky-theme pre code {
+  color: #ae91e8;
 }
 .sky-theme table {
   color: #cab2fa;
 }
 .sky-theme table thead th {
-  color: #fec38f;
+  color: #f1ebff;
 }
 .sky-theme table tbody td {
-  color: #ae91e8;
+  color: #cab2fa;
 }
 .sky-theme table tbody td:first-child {
-  color: #cab2fa;
+  color: #f1ebff;
 }
 .sky-theme table tr {
   color: #cab2fa;
 }
 .sky-theme a {
-  color: #b07745;
-  border-bottom: 1px solid #765f4c;
+  color: #fec38f;
+  border-bottom: 1px solid #b07745;
+}
+.sky-theme a,
+.sky-theme a:hover {
+  text-decoration: none;
 }
 .sky-theme a:hover {
-  background-color: #765f4c;
+  background-color: #b07745;
 }
 .sky-theme p,
-.sky-theme ol,
-.sky-theme ul {
+.sky-theme strong,
+.sky-theme em,
+.sky-theme ul,
+.sky-theme ol {
   color: #cab2fa;
 }
 .sky-theme blockquote,
 .sky-theme cite {
-  color: #fec38f;
+  color: #b07745;
 }
 .sky-theme header {
-  color: #f1ebff;
+  color: #cab2fa;
 }
 .sky-theme mark {
   background: #fec38f;
+}
+.sky-theme code {
+  color: #ae91e8;
+}
+.sky-theme .post-meta {
+  color: #715f95;
 }
 
 .earth-theme body {
@@ -121,43 +153,59 @@
   border-top: 1px solid #bd987f;
   border-bottom: 1px solid #bd987f;
   background: #2c2826;
+  color: #bd987f;
+}
+.earth-theme pre code {
+  color: #98755d;
 }
 .earth-theme table {
   color: #bd987f;
 }
 .earth-theme table thead th {
-  color: #fecb52;
+  color: #ffdac2;
 }
 .earth-theme table tbody td {
-  color: #98755d;
+  color: #bd987f;
 }
 .earth-theme table tbody td:first-child {
-  color: #bd987f;
+  color: #ffdac2;
 }
 .earth-theme table tr {
   color: #bd987f;
 }
 .earth-theme a {
-  color: #b09045;
-  border-bottom: 1px solid #726546;
+  color: #fecb52;
+  border-bottom: 1px solid #b09045;
+}
+.earth-theme a,
+.earth-theme a:hover {
+  text-decoration: none;
 }
 .earth-theme a:hover {
-  background-color: #726546;
+  background-color: #b09045;
 }
 .earth-theme p,
-.earth-theme ol,
-.earth-theme ul {
+.earth-theme strong,
+.earth-theme em,
+.earth-theme ul,
+.earth-theme ol {
   color: #bd987f;
 }
 .earth-theme blockquote,
 .earth-theme cite {
-  color: #fecb52;
+  color: #b09045;
 }
 .earth-theme header {
-  color: #ffdac2;
+  color: #bd987f;
 }
 .earth-theme mark {
   background: #fecb52;
+}
+.earth-theme code {
+  color: #98755d;
+}
+.earth-theme .post-meta {
+  color: #705e51;
 }
 
 .sea-theme body {
@@ -175,43 +223,59 @@
   border-top: 1px solid #88b4e7;
   border-bottom: 1px solid #88b4e7;
   background: #1d262f;
+  color: #88b4e7;
+}
+.sea-theme pre code {
+  color: #5d8cc0;
 }
 .sea-theme table {
   color: #88b4e7;
 }
 .sea-theme table thead th {
-  color: #34febb;
+  color: #d6e9ff;
 }
 .sea-theme table tbody td {
-  color: #5d8cc0;
+  color: #88b4e7;
 }
 .sea-theme table tbody td:first-child {
-  color: #88b4e7;
+  color: #d6e9ff;
 }
 .sea-theme table tr {
   color: #88b4e7;
 }
 .sea-theme a {
-  color: #32ae85;
-  border-bottom: 1px solid #42675a;
+  color: #34febb;
+  border-bottom: 1px solid #32ae85;
+}
+.sea-theme a,
+.sea-theme a:hover {
+  text-decoration: none;
 }
 .sea-theme a:hover {
-  background-color: #42675a;
+  background-color: #32ae85;
 }
 .sea-theme p,
-.sea-theme ol,
-.sea-theme ul {
+.sea-theme strong,
+.sea-theme em,
+.sea-theme ul,
+.sea-theme ol {
   color: #88b4e7;
 }
 .sea-theme blockquote,
 .sea-theme cite {
-  color: #34febb;
+  color: #32ae85;
 }
 .sea-theme header {
-  color: #d6e9ff;
+  color: #88b4e7;
 }
 .sea-theme mark {
   background: #34febb;
+}
+.sea-theme code {
+  color: #5d8cc0;
+}
+.sea-theme .post-meta {
+  color: #586f89;
 }
 
 .forest-theme body {
@@ -229,43 +293,59 @@
   border-top: 1px solid #a9bca9;
   border-bottom: 1px solid #a9bca9;
   background: #2a2d2a;
+  color: #a9bca9;
+}
+.forest-theme pre code {
+  color: #869886;
 }
 .forest-theme table {
   color: #a9bca9;
 }
 .forest-theme table thead th {
-  color: #e7f98b;
+  color: #ddf8dd;
 }
 .forest-theme table tbody td {
-  color: #869886;
+  color: #a9bca9;
 }
 .forest-theme table tbody td:first-child {
-  color: #a9bca9;
+  color: #ddf8dd;
 }
 .forest-theme table tr {
   color: #a9bca9;
 }
 .forest-theme a {
-  color: #99a659;
-  border-bottom: 1px solid #747a52;
+  color: #e7f98b;
+  border-bottom: 1px solid #99a659;
+}
+.forest-theme a,
+.forest-theme a:hover {
+  text-decoration: none;
 }
 .forest-theme a:hover {
-  background-color: #747a52;
+  background-color: #99a659;
 }
 .forest-theme p,
-.forest-theme ol,
-.forest-theme ul {
+.forest-theme strong,
+.forest-theme em,
+.forest-theme ul,
+.forest-theme ol {
   color: #a9bca9;
 }
 .forest-theme blockquote,
 .forest-theme cite {
-  color: #e7f98b;
+  color: #99a659;
 }
 .forest-theme header {
-  color: #ddf8dd;
+  color: #a9bca9;
 }
 .forest-theme mark {
   background: #e7f98b;
+}
+.forest-theme code {
+  color: #869886;
+}
+.forest-theme .post-meta {
+  color: #738273;
 }
 
 body {
@@ -278,7 +358,6 @@ body {
 pre {
   border: unset;
   overflow: scroll;
-  color: #988bc7;
 }
 
 table tbody td:first-child {
@@ -286,6 +365,10 @@ table tbody td:first-child {
 }
 table tr th {
   font-size: 14px;
+}
+
+p {
+  margin: 20px 0px;
 }
 
 h1::before {
