@@ -8,3 +8,42 @@ $duo-1: #fec38f;
 $duo-2: #b07745;
 $duo-3: #765f4c;
 $background: #2c2734;
+
+.sky-theme {
+    body {
+        background: $background;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $uno-1;
+    }
+
+    pre {
+        border-top: 1px solid $uno-2;
+        border-bottom: 1px solid $uno-2;
+        background: $background;
+    }
+
+    table {
+        color: $uno-2;
+
+        tbody {
+            td {
+                color: $uno-2;
+            }
+
+            td:first-child {
+                color: $uno-2;
+            }
+        }
+
+        tr {
+            color: $uno-2;
+        }
+    }
+}

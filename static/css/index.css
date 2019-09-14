@@ -1,6 +1,75 @@
+.space-theme body {
+  background: #24242e;
+}
+.space-theme h1,
+.space-theme h2,
+.space-theme h3,
+.space-theme h4,
+.space-theme h5,
+.space-theme h6 {
+  color: #bebeef;
+}
+.space-theme pre {
+  border-top: 1px solid #8686cb;
+  border-bottom: 1px solid #8686cb;
+  background: #24242e;
+}
+.space-theme table {
+  color: #8686cb;
+}
+.space-theme table tbody td {
+  color: #8686cb;
+}
+.space-theme table tbody td:first-child {
+  color: #8686cb;
+}
+.space-theme table tr {
+  color: #8686cb;
+}
+.space-theme a {
+  color: #fe7734;
+  border-bottom: 1px solid #644c40;
+}
+.space-theme a :hover {
+  color: #b06845;
+}
+.space-theme p {
+  color: #7272a1;
+}
+.space-theme header {
+  color: #8686cb;
+}
+
+.sky-theme body {
+  background: #2c2734;
+}
+.sky-theme h1,
+.sky-theme h2,
+.sky-theme h3,
+.sky-theme h4,
+.sky-theme h5,
+.sky-theme h6 {
+  color: #f1ebff;
+}
+.sky-theme pre {
+  border-top: 1px solid #cab2fa;
+  border-bottom: 1px solid #cab2fa;
+  background: #2c2734;
+}
+.sky-theme table {
+  color: #cab2fa;
+}
+.sky-theme table tbody td {
+  color: #cab2fa;
+}
+.sky-theme table tbody td:first-child {
+  color: #cab2fa;
+}
+.sky-theme table tr {
+  color: #cab2fa;
+}
+
 body {
-  background: #2a2634;
-  color: #c4b4ff;
   font-family: "Fira Mono", monospace;
   text-rendering: geometricPrecision;
   max-width: 600px;
@@ -9,25 +78,12 @@ body {
 
 pre {
   border: unset;
-  border-top: 1px solid #c4b4ff;
-  border-bottom: 1px solid #c4b4ff;
-  background: #2a2634;
   overflow: scroll;
   color: #988bc7;
 }
 
-table {
-  color: #c4b4ff;
-}
-table tbody td {
-  color: #c4b4ff;
-}
 table tbody td:first-child {
-  color: #c4b4ff;
   font-weight: bolder;
-}
-table tr {
-  color: #c4b4ff;
 }
 table tr th {
   font-size: 14px;
@@ -43,6 +99,18 @@ h2::before {
 
 h3::before {
   content: "### ";
+}
+
+h4::before {
+  content: "#### ";
+}
+
+h5::before {
+  content: "##### ";
+}
+
+h6::before {
+  content: "###### ";
 }
 
 /*# sourceMappingURL=index.css.map */

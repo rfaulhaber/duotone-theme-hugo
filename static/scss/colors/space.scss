@@ -8,3 +8,59 @@ $duo-1: #fe7734;
 $duo-2: #b06845;
 $duo-3: #644c40;
 $background: #24242e;
+
+.space-theme {
+    body {
+        background: $background;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $uno-1;
+    }
+
+    pre {
+        border-top: 1px solid $uno-2;
+        border-bottom: 1px solid $uno-2;
+        background: $background;
+    }
+
+    table {
+        color: $uno-2;
+
+        tbody {
+            td {
+                color: $uno-2;
+            }
+
+            td:first-child {
+                color: $uno-2;
+            }
+        }
+
+        tr {
+            color: $uno-2;
+        }
+    }
+
+    a {
+        color: $duo-1;
+        border-bottom: 1px solid $duo-3;
+    }
+
+    a :hover {
+        color: $duo-2;
+    }
+
+    p {
+        color: $uno-3;
+    }
+
+    header {
+        color: $uno-2;
+    }
+}
