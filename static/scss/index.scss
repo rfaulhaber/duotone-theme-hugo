@@ -7,7 +7,7 @@
 body {
 	font-family: 'Fira Mono', monospace;
 	text-rendering: geometricPrecision;
-	max-width: 600px;
+	max-width: 40vw;
 	margin: 0 auto;
 }
 
@@ -34,29 +34,29 @@ p {
 	margin: 20px 0px;
 }
 
-h1::before {
-	content: '# ';
-}
+// h1::before {
+// 	content: '# ';
+// }
 
-h2::before {
-	content: '## ';
-}
+// h2::before {
+// 	content: '## ';
+// }
 
-h3::before {
-	content: '### ';
-}
+// h3::before {
+// 	content: '### ';
+// }
 
-h4::before {
-	content: '#### ';
-}
+// h4::before {
+// 	content: '#### ';
+// }
 
-h5::before {
-	content: '##### ';
-}
+// h5::before {
+// 	content: '##### ';
+// }
 
-h6::before {
-	content: '###### ';
-}
+// h6::before {
+// 	content: '###### ';
+// }
 
 #tags {
 	li {
