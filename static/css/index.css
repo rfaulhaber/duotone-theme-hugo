@@ -395,4 +395,12 @@ h6::before {
   content: "###### ";
 }
 
+#tags li {
+  display: inline-block;
+}
+
+#date::before {
+  content: "";
+}
+
 /*# sourceMappingURL=index.css.map */

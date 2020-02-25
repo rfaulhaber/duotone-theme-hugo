@@ -57,3 +57,13 @@ h5::before {
 h6::before {
 	content: '###### ';
 }
+
+#tags {
+	li {
+		display: inline-block;
+	}
+}
+
+#date::before {
+	content: '';
+}

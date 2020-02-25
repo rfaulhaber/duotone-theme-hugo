@@ -1,6 +1,5 @@
 {{ partial "content-top.html" . }}
 
-{{ define "main" }}
 <section id="main">
 	<h1 id="title">{{ .Title }}</h1>
 	<div>
@@ -9,18 +8,18 @@
 		</article>
 	</div>
 </section>
-<aside id="meta">
+<aside id="meta" style="display: fixed;top:100px;right: 0">
 	<div>
 		<section>
 			<h4 id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </h4>
 		</section>
-		{{ with .Params.topics }}
+		<!-- {{ with .Params.topics }}
 		<ul id="topics">
 			{{ range . }}
 			<li><a href="{{ "topics" | absURL}}{{ . | urlize }}">{{ . }}</a> </li>
 			{{ end }}
 		</ul>
-		{{ end }}
+		{{ end }} -->
 		{{ with .Params.tags }}
 		<ul id="tags">
 			{{ range . }}
@@ -38,7 +37,5 @@
 		{{ end }}
 	</div>
 </aside>
-{{ end }}
-
 
 {{ partial "content-bottom.html" . }}
