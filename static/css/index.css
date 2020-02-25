@@ -403,4 +403,8 @@ h6::before {
   content: "";
 }
 
+div.chroma {
+  background-color: initial;
+}
+
 /*# sourceMappingURL=index.css.map */
