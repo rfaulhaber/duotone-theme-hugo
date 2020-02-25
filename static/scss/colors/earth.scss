@@ -2,15 +2,15 @@
 @import 'theme';
 
 .earth-theme {
-    $uno-1: #ffdac2;
-    $uno-2: #bd987f;
-    $uno-3: #98755d;
-    $uno-4: #705e51;
-    $uno-5: #564b43;
-    $duo-1: #fecb52;
-    $duo-2: #b09045;
-    $duo-3: #726546;
-    $background: #2c2826;
+	$uno-1: #ffdac2;
+	$uno-2: #bd987f;
+	$uno-3: #98755d;
+	$uno-4: #705e51;
+	$uno-5: #564b43;
+	$duo-1: #fecb52;
+	$duo-2: #b09045;
+	$duo-3: #726546;
+	$background: #2c2826;
 
-    @include theme($uno-1, $uno-2, $uno-3, $uno-4, $uno-5, $duo-1, $duo-2, $duo-3, $background);
+	@include theme($uno-1, $uno-2, $uno-3, $uno-4, $uno-5, $duo-1, $duo-2, $duo-3, $background);
 }

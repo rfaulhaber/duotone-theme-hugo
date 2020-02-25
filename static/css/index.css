@@ -357,7 +357,7 @@ body {
 
 pre {
   border: unset;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 table tbody td:first-child {

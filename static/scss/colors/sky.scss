@@ -2,15 +2,15 @@
 
 // sky
 .sky-theme {
-    $uno-1: #f1ebff;
-    $uno-2: #cab2fa;
-    $uno-3: #ae91e8;
-    $uno-4: #715f95;
-    $uno-5: #544d60;
-    $duo-1: #fec38f;
-    $duo-2: #b07745;
-    $duo-3: #765f4c;
-    $background: #2c2734;
+	$uno-1: #f1ebff;
+	$uno-2: #cab2fa;
+	$uno-3: #ae91e8;
+	$uno-4: #715f95;
+	$uno-5: #544d60;
+	$duo-1: #fec38f;
+	$duo-2: #b07745;
+	$duo-3: #765f4c;
+	$background: #2c2734;
 
-    @include theme($uno-1, $uno-2, $uno-3, $uno-4, $uno-5, $duo-1, $duo-2, $duo-3, $background);
+	@include theme($uno-1, $uno-2, $uno-3, $uno-4, $uno-5, $duo-1, $duo-2, $duo-3, $background);
 }

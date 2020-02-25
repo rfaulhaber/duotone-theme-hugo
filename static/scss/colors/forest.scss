@@ -2,15 +2,15 @@
 @import 'theme';
 
 .forest-theme {
-    $uno-1: #ddf8dd;
-    $uno-2: #a9bca9;
-    $uno-3: #869886;
-    $uno-4: #738273;
-    $uno-5: #585f58;
-    $duo-1: #e7f98b;
-    $duo-2: #99a659;
-    $duo-3: #747a52;
-    $background: #2a2d2a;
+	$uno-1: #ddf8dd;
+	$uno-2: #a9bca9;
+	$uno-3: #869886;
+	$uno-4: #738273;
+	$uno-5: #585f58;
+	$duo-1: #e7f98b;
+	$duo-2: #99a659;
+	$duo-3: #747a52;
+	$background: #2a2d2a;
 
-    @include theme($uno-1, $uno-2, $uno-3, $uno-4, $uno-5, $duo-1, $duo-2, $duo-3, $background);
+	@include theme($uno-1, $uno-2, $uno-3, $uno-4, $uno-5, $duo-1, $duo-2, $duo-3, $background);
 }
