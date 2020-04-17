@@ -67,6 +67,10 @@
 .space-theme .post-meta {
   color: #5b5b7b;
 }
+.space-theme div.highlight pre {
+  background-color: initial;
+  background: initial;
+}
 
 .sky-theme body {
   background: #2c2734;
@@ -136,6 +140,10 @@
 }
 .sky-theme .post-meta {
   color: #715f95;
+}
+.sky-theme div.highlight pre {
+  background-color: initial;
+  background: initial;
 }
 
 .earth-theme body {
@@ -207,6 +215,10 @@
 .earth-theme .post-meta {
   color: #705e51;
 }
+.earth-theme div.highlight pre {
+  background-color: initial;
+  background: initial;
+}
 
 .sea-theme body {
   background: #1d262f;
@@ -277,6 +289,10 @@
 .sea-theme .post-meta {
   color: #586f89;
 }
+.sea-theme div.highlight pre {
+  background-color: initial;
+  background: initial;
+}
 
 .forest-theme body {
   background: #2a2d2a;
@@ -346,6 +362,10 @@
 }
 .forest-theme .post-meta {
   color: #738273;
+}
+.forest-theme div.highlight pre {
+  background-color: initial;
+  background: initial;
 }
 
 body {
