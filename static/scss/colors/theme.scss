@@ -83,7 +83,14 @@
 	}
 
 	code {
-		color: $uno-3;
+		color: $uno-2;
+		background: $uno-5;
+		padding: 1px;
+		border-radius: 5px;
+	}
+
+	code::before, code::after {
+		content: "`"
 	}
 
 	.post-meta {

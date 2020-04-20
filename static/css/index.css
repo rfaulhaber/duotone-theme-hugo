@@ -62,7 +62,13 @@
   background: #fe7734;
 }
 .space-theme code {
-  color: #7272a1;
+  color: #8686cb;
+  background: #49495a;
+  padding: 1px;
+  border-radius: 5px;
+}
+.space-theme code::before, .space-theme code::after {
+  content: "`";
 }
 .space-theme .post-meta {
   color: #5b5b7b;
@@ -136,7 +142,13 @@
   background: #fec38f;
 }
 .sky-theme code {
-  color: #ae91e8;
+  color: #cab2fa;
+  background: #544d60;
+  padding: 1px;
+  border-radius: 5px;
+}
+.sky-theme code::before, .sky-theme code::after {
+  content: "`";
 }
 .sky-theme .post-meta {
   color: #715f95;
@@ -210,7 +222,13 @@
   background: #fecb52;
 }
 .earth-theme code {
-  color: #98755d;
+  color: #bd987f;
+  background: #564b43;
+  padding: 1px;
+  border-radius: 5px;
+}
+.earth-theme code::before, .earth-theme code::after {
+  content: "`";
 }
 .earth-theme .post-meta {
   color: #705e51;
@@ -284,7 +302,13 @@
   background: #34febb;
 }
 .sea-theme code {
-  color: #5d8cc0;
+  color: #88b4e7;
+  background: #444c55;
+  padding: 1px;
+  border-radius: 5px;
+}
+.sea-theme code::before, .sea-theme code::after {
+  content: "`";
 }
 .sea-theme .post-meta {
   color: #586f89;
@@ -358,7 +382,13 @@
   background: #e7f98b;
 }
 .forest-theme code {
-  color: #869886;
+  color: #a9bca9;
+  background: #585f58;
+  padding: 1px;
+  border-radius: 5px;
+}
+.forest-theme code::before, .forest-theme code::after {
+  content: "`";
 }
 .forest-theme .post-meta {
   color: #738273;
