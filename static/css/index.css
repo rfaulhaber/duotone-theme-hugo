@@ -17,6 +17,7 @@
 }
 .space-theme pre code {
   color: #7272a1;
+  background: initial;
 }
 .space-theme table {
   color: #8686cb;
@@ -97,6 +98,7 @@
 }
 .sky-theme pre code {
   color: #ae91e8;
+  background: initial;
 }
 .sky-theme table {
   color: #cab2fa;
@@ -177,6 +179,7 @@
 }
 .earth-theme pre code {
   color: #98755d;
+  background: initial;
 }
 .earth-theme table {
   color: #bd987f;
@@ -257,6 +260,7 @@
 }
 .sea-theme pre code {
   color: #5d8cc0;
+  background: initial;
 }
 .sea-theme table {
   color: #88b4e7;
@@ -337,6 +341,7 @@
 }
 .forest-theme pre code {
   color: #869886;
+  background: initial;
 }
 .forest-theme table {
   color: #a9bca9;
