@@ -22,6 +22,10 @@
 			color: $uno-3;
 			background: initial;
 		}
+
+		code::before, code::after {
+			content: initial;
+		}
 	}
 
 	table {

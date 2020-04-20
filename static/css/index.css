@@ -19,6 +19,9 @@
   color: #7272a1;
   background: initial;
 }
+.space-theme pre code::before, .space-theme pre code::after {
+  content: initial;
+}
 .space-theme table {
   color: #8686cb;
 }
@@ -99,6 +102,9 @@
 .sky-theme pre code {
   color: #ae91e8;
   background: initial;
+}
+.sky-theme pre code::before, .sky-theme pre code::after {
+  content: initial;
 }
 .sky-theme table {
   color: #cab2fa;
@@ -181,6 +187,9 @@
   color: #98755d;
   background: initial;
 }
+.earth-theme pre code::before, .earth-theme pre code::after {
+  content: initial;
+}
 .earth-theme table {
   color: #bd987f;
 }
@@ -262,6 +271,9 @@
   color: #5d8cc0;
   background: initial;
 }
+.sea-theme pre code::before, .sea-theme pre code::after {
+  content: initial;
+}
 .sea-theme table {
   color: #88b4e7;
 }
@@ -342,6 +354,9 @@
 .forest-theme pre code {
   color: #869886;
   background: initial;
+}
+.forest-theme pre code::before, .forest-theme pre code::after {
+  content: initial;
 }
 .forest-theme table {
   color: #a9bca9;
