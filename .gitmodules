@@ -1,0 +1,3 @@
+[submodule "exampleSite"]
+	path = exampleSite
+	url = git@github.com:gohugoio/hugoBasicExample.git
