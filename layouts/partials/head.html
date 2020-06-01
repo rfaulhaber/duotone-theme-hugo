@@ -1,4 +1,6 @@
 <head>
+	{{ template "_internal/google_analytics_async.html" . }}
+
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -13,6 +15,4 @@
 	<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/syntax.css" /> -->
 
 	<link rel="canonical" href="{{ .Permalink }}" />
-
-	{{ template "_internal/google_analytics_async.html" . }}
 </head>
