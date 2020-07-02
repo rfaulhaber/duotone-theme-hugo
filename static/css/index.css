@@ -428,6 +428,8 @@ body {
 pre {
   border: unset;
   overflow: hidden;
+  padding: unset;
+  margin: unset;
 }
 
 table tbody td:first-child {
