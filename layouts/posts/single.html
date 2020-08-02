@@ -1,0 +1,33 @@
+{{ partial "content-top.html" . }}
+
+<section id="main">
+	<h1 id="title">{{ .Title }}</h1>
+	<div class="post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }} - {{ .ReadingTime }} min </div>
+	{{ with .Params.tags }}
+	<div class="tag-container">
+		<span class="tags-label">tags:</span>
+		<ul id="tags">
+			{{ range . }}
+			<li> <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a> </li>
+			{{ end }}
+		</ul>
+		{{ end }}
+	</div>
+	<div>
+		<article id="content">
+			{{ .Content }}
+		</article>
+	</div>
+</section>
+<aside id="meta" style="display: fixed;top:100px;right: 0">
+	<div>
+		{{ with .PrevInSection }}
+		<a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
+		{{ end }}
+		{{ with .NextInSection }}
+		<a class="next" href="{{.Permalink}}"> {{.Title}}</a>
+		{{ end }}
+	</div>
+</aside>
+
+{{ partial "content-bottom.html" . }}
