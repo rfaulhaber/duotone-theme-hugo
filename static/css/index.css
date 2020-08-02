@@ -81,6 +81,9 @@
   background-color: initial;
   background: initial;
 }
+.space-theme .tags-label {
+  color: #5b5b7b;
+}
 
 .sky-theme body {
   background: #2c2734;
@@ -164,6 +167,9 @@
 .sky-theme div.highlight pre {
   background-color: initial;
   background: initial;
+}
+.sky-theme .tags-label {
+  color: #715f95;
 }
 
 .earth-theme body {
@@ -249,6 +255,9 @@
   background-color: initial;
   background: initial;
 }
+.earth-theme .tags-label {
+  color: #705e51;
+}
 
 .sea-theme body {
   background: #1d262f;
@@ -332,6 +341,9 @@
 .sea-theme div.highlight pre {
   background-color: initial;
   background: initial;
+}
+.sea-theme .tags-label {
+  color: #586f89;
 }
 
 .forest-theme body {
@@ -417,6 +429,9 @@
   background-color: initial;
   background: initial;
 }
+.forest-theme .tags-label {
+  color: #738273;
+}
 
 body {
   font-family: "Fira Mono", monospace;
@@ -443,8 +458,26 @@ p {
   margin: 20px 0px;
 }
 
+#tags {
+  margin: unset;
+  padding: unset;
+}
 #tags li {
   display: inline-block;
+}
+
+.tag-container {
+  height: 50%;
+}
+.tag-container span, .tag-container ul {
+  display: inline-block;
+}
+.tag-container span p {
+  margin: unset;
+}
+
+#title {
+  margin-bottom: 0 !important;
 }
 
 #date::before {

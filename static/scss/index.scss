@@ -37,9 +37,30 @@ p {
 }
 
 #tags {
+	margin: unset;
+	padding: unset;
+
 	li {
 		display: inline-block;
 	}
+}
+
+.tag-container {
+	height: 50%;
+
+	span, ul {
+		display: inline-block;
+	}
+
+	span {
+		p {
+			margin: unset;
+		}
+	}
+}
+
+#title {
+	margin-bottom: 0 !important;
 }
 
 #date::before {
