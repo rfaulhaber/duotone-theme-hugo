@@ -12,10 +12,15 @@ In your config.toml, set the following value to specify a theme:
 
 ## Screenshots
 
+earth
 ![earth theme](./screenshots/earth.png "earth theme")
+forest
 ![forest theme](./screenshots/forest.png "forest theme")
+sea
 ![sea theme](./screenshots/sea.png "sea theme")
+sky
 ![sky theme](./screenshots/sky.png "sky theme")
+space
 ![space theme](./screenshots/space.png "space theme")
 
 TODO:
