@@ -1,49 +1,55 @@
-@import 'colors/space.scss';
-@import 'colors/sky.scss';
-@import 'colors/earth.scss';
-@import 'colors/sea.scss';
-@import 'colors/forest.scss';
+@import "colors/space.scss";
+@import "colors/sky.scss";
+@import "colors/earth.scss";
+@import "colors/sea.scss";
+@import "colors/forest.scss";
 
 body {
-	font-family: 'Fira Mono', monospace;
-	text-rendering: geometricPrecision;
-	max-width: 40vw;
-	margin: 0 auto;
+  font-family: "Fira Mono", monospace;
+  text-rendering: geometricPrecision;
+  max-width: 50vw;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  body {
+    max-width: 80vw;
+  }
 }
 
 pre {
-	border: unset;
-	overflow: hidden;
+  border: unset;
+  overflow: hidden;
 }
 
 table {
-	tbody {
-		td:first-child {
-			font-weight: bolder;
-		}
-	}
+  tbody {
+    td:first-child {
+      font-weight: bolder;
+    }
+  }
 
-	tr {
-		th {
-			font-size: 14px;
-		}
-	}
+  tr {
+    th {
+      font-size: 14px;
+    }
+  }
 }
 
 p {
-	margin: 20px 0px;
+  margin: 20px 0px;
 }
 
 #tags {
-	li {
-		display: inline-block;
-	}
+  li {
+    display: inline-block;
+  }
 }
 
 #date::before {
-	content: '';
+  content: "";
 }
 
 div.chroma {
-	background-color: initial;
+  background-color: initial;
 }
