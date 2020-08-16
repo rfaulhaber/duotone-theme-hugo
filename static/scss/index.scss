@@ -7,14 +7,9 @@
 body {
   font-family: "Fira Mono", monospace;
   text-rendering: geometricPrecision;
-  max-width: 50vw;
+  max-width: 720px;
   margin: 0 auto;
-}
-
-@media (max-width: 768px) {
-  body {
-    max-width: 80vw;
-  }
+  padding-bottom: 1em;
 }
 
 pre {

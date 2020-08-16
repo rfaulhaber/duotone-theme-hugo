@@ -19,8 +19,7 @@
   color: #7272a1;
   background: initial;
 }
-.space-theme pre code::before,
-.space-theme pre code::after {
+.space-theme pre code::before, .space-theme pre code::after {
   content: initial;
 }
 .space-theme table {
@@ -72,8 +71,7 @@
   padding: 1px;
   border-radius: 5px;
 }
-.space-theme code::before,
-.space-theme code::after {
+.space-theme code::before, .space-theme code::after {
   content: "`";
 }
 .space-theme .post-meta {
@@ -108,8 +106,7 @@
   color: #ae91e8;
   background: initial;
 }
-.sky-theme pre code::before,
-.sky-theme pre code::after {
+.sky-theme pre code::before, .sky-theme pre code::after {
   content: initial;
 }
 .sky-theme table {
@@ -161,8 +158,7 @@
   padding: 1px;
   border-radius: 5px;
 }
-.sky-theme code::before,
-.sky-theme code::after {
+.sky-theme code::before, .sky-theme code::after {
   content: "`";
 }
 .sky-theme .post-meta {
@@ -197,8 +193,7 @@
   color: #98755d;
   background: initial;
 }
-.earth-theme pre code::before,
-.earth-theme pre code::after {
+.earth-theme pre code::before, .earth-theme pre code::after {
   content: initial;
 }
 .earth-theme table {
@@ -250,8 +245,7 @@
   padding: 1px;
   border-radius: 5px;
 }
-.earth-theme code::before,
-.earth-theme code::after {
+.earth-theme code::before, .earth-theme code::after {
   content: "`";
 }
 .earth-theme .post-meta {
@@ -286,8 +280,7 @@
   color: #5d8cc0;
   background: initial;
 }
-.sea-theme pre code::before,
-.sea-theme pre code::after {
+.sea-theme pre code::before, .sea-theme pre code::after {
   content: initial;
 }
 .sea-theme table {
@@ -339,8 +332,7 @@
   padding: 1px;
   border-radius: 5px;
 }
-.sea-theme code::before,
-.sea-theme code::after {
+.sea-theme code::before, .sea-theme code::after {
   content: "`";
 }
 .sea-theme .post-meta {
@@ -375,8 +367,7 @@
   color: #869886;
   background: initial;
 }
-.forest-theme pre code::before,
-.forest-theme pre code::after {
+.forest-theme pre code::before, .forest-theme pre code::after {
   content: initial;
 }
 .forest-theme table {
@@ -428,8 +419,7 @@
   padding: 1px;
   border-radius: 5px;
 }
-.forest-theme code::before,
-.forest-theme code::after {
+.forest-theme code::before, .forest-theme code::after {
   content: "`";
 }
 .forest-theme .post-meta {
@@ -446,15 +436,11 @@
 body {
   font-family: "Fira Mono", monospace;
   text-rendering: geometricPrecision;
-  max-width: 50vw;
+  max-width: 720px;
   margin: 0 auto;
+  padding-bottom: 1em;
 }
 
-@media (max-width: 768px) {
-  body {
-    max-width: 80vw;
-  }
-}
 pre {
   border: unset;
   overflow: hidden;
