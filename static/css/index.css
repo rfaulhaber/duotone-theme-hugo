@@ -444,6 +444,8 @@ body {
 pre {
   border: unset;
   overflow: hidden;
+  margin: unset;
+  padding: unset;
 }
 
 table tbody td:first-child {
