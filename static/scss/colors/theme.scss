@@ -1,114 +1,143 @@
-@mixin theme($uno-1, $uno-2, $uno-3, $uno-4, $uno-5, $duo-1, $duo-2, $duo-3, $background) {
-	body {
-		background: $background;
-	}
+@mixin theme(
+  $uno-1,
+  $uno-2,
+  $uno-3,
+  $uno-4,
+  $uno-5,
+  $duo-1,
+  $duo-2,
+  $duo-3,
+  $background
+) {
+  body {
+    background: $background;
+  }
 
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6 {
-		color: $uno-1;
-	}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $uno-1;
+  }
 
-	pre {
-		border-top: 1px solid $uno-2;
-		border-bottom: 1px solid $uno-2;
-		background: $background;
-		color: $uno-2;
+  pre {
+    border-top: 1px solid $uno-2;
+    border-bottom: 1px solid $uno-2;
+    background: $background;
+    color: $uno-2;
 
-		code {
-			color: $uno-3;
-			background: initial;
-		}
+    code {
+      color: $uno-3;
+      background: initial;
+    }
 
-		code::before, code::after {
-			content: initial;
-		}
-	}
+    code::before,
+    code::after {
+      content: initial;
+    }
+  }
 
-	table {
-		color: $uno-2;
+  table {
+    color: $uno-2;
 
-		thead {
-			th {
-				color: $uno-1;
-			}
-		}
+    thead {
+      th {
+        color: $uno-1;
+      }
+    }
 
-		tbody {
-			td {
-				color: $uno-2;
-			}
+    tbody {
+      td {
+        color: $uno-2;
+      }
 
-			td:first-child {
-				color: $uno-1;
-			}
-		}
+      td:first-child {
+        color: $uno-1;
+      }
+    }
 
-		tr {
-			color: $uno-2;
-		}
-	}
+    tr {
+      color: $uno-2;
+    }
+  }
 
-	a {
-		color: $duo-1;
-		border-bottom: 1px solid $duo-2;
-	}
+  a {
+    color: $duo-1;
+    border-bottom: 1px solid $duo-2;
+  }
 
-	a,
-	a:hover {
-		text-decoration: none;
-	}
+  a,
+  a:hover {
+    text-decoration: none;
+  }
 
-	a:hover {
-		background-color: $duo-2;
-	}
+  a:hover {
+    background-color: $duo-2;
+  }
 
-	p,
-	strong,
-	em,
-	ul,
-	ol {
-		color: $uno-2;
-	}
+  p,
+  strong,
+  em,
+  ul,
+  ol {
+    color: $uno-2;
+  }
 
-	blockquote,
-	cite {
-		color: $duo-2;
-	}
+  blockquote,
+  cite {
+    color: $duo-2;
+    border-left: 1px solid $duo-3;
+    padding-left: 20px;
 
-	header {
-		color: $uno-2;
-	}
+    p {
+      color: $duo-2;
+    }
+  }
 
-	mark {
-		background: $duo-1;
-	}
+  header {
+    color: $uno-2;
+  }
 
-	code {
-		color: $uno-2;
-		background: $uno-5;
-		padding: 1px;
-		border-radius: 5px;
-	}
+  mark {
+    background: $duo-1;
+  }
 
-	code::before, code::after {
-		content: "`"
-	}
+  code {
+    color: $uno-2;
+    background: $uno-5;
+    padding: 1px;
+    border-radius: 5px;
+  }
 
-	.post-meta {
-		color: $uno-4;
-	}
+  code::before,
+  code::after {
+    content: "`";
+  }
 
-	div.highlight pre {
-		background-color: initial;
-		background: initial;
-	}
+  .post-meta {
+    color: $uno-4;
+  }
 
-	.tags-label {
-		color: $uno-4;
-	}
+  div.highlight pre {
+    background-color: initial;
+    background: initial;
+  }
+
+  .tags-label {
+    color: $uno-4;
+  }
+
+  .notes,
+  .note {
+    border-top: 1px solid $uno-2;
+    border-bottom: 1px solid $uno-2;
+
+    background: rgba($uno-5, 0.3);
+
+    p {
+      margin: 20px;
+    }
+  }
 }
-
