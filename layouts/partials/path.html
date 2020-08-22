@@ -2,8 +2,8 @@
   {{ if eq .CurrentSection.Title .Site.Title }}
     <a href="{{ .Site.BaseURL }}">/{{ .Site.Title }}</a><a href="{{ .CurrentSection.URL }}">/{{ lower .CurrentSection.Title }}</a>
   {{ else if eq .Parent.URL "/" }}
-    <a href="{{ .Site.BaseURL }}">/{{ .Site.Title }}</a><a href="{{ .Page.URL }}">/{{ lower .Page.Title  }}</a>
+    <a href="{{ .Site.BaseURL }}">/{{ .Site.Title }}</a><a href="{{ .RelPermalink }}">/{{ lower .Page.Title  }}</a>
   {{ else  }}
-    <a href="{{ .Site.BaseURL }}">/{{ .Site.Title }}</a><a href="{{ .Parent.URL }}">/{{ lower .Parent.Title }}</a><a href="{{ .Page.URL }}">/{{ lower .Page.Title }}</a>
+    <a href="{{ .Site.BaseURL }}">/{{ .Site.Title }}</a><a href="{{ .Parent.URL }}">/{{ lower .Parent.Title }}</a><a href="{{ .RelPermalink }}">/{{ lower .Page.Title }}</a>
   {{ end  }}
 </span>

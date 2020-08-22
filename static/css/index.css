@@ -89,7 +89,7 @@
   background-color: initial;
   background: initial;
 }
-.space-theme .tags-label {
+.space-theme .subhead-label {
   color: #5b5b7b;
 }
 .space-theme .notes,
@@ -194,7 +194,7 @@
   background-color: initial;
   background: initial;
 }
-.sky-theme .tags-label {
+.sky-theme .subhead-label {
   color: #715f95;
 }
 .sky-theme .notes,
@@ -299,7 +299,7 @@
   background-color: initial;
   background: initial;
 }
-.earth-theme .tags-label {
+.earth-theme .subhead-label {
   color: #705e51;
 }
 .earth-theme .notes,
@@ -404,7 +404,7 @@
   background-color: initial;
   background: initial;
 }
-.sea-theme .tags-label {
+.sea-theme .subhead-label {
   color: #586f89;
 }
 .sea-theme .notes,
@@ -509,7 +509,7 @@
   background-color: initial;
   background: initial;
 }
-.forest-theme .tags-label {
+.forest-theme .subhead-label {
   color: #738273;
 }
 .forest-theme .notes,
@@ -549,22 +549,22 @@ p {
   margin: 20px 0px;
 }
 
-#tags {
+.subhead-list {
   margin: unset;
   padding: unset;
 }
-#tags li {
+.subhead-list li {
   display: inline-block;
 }
 
-.tag-container {
+.subhead-list-container {
   height: 50%;
 }
-.tag-container span,
-.tag-container ul {
+.subhead-list-container span,
+.subhead-list-container ul {
   display: inline-block;
 }
-.tag-container span p {
+.subhead-list-container span p {
   margin: unset;
 }
 

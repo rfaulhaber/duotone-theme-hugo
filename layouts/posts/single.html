@@ -3,10 +3,19 @@
 <section id="main">
 	<h1 id="title">{{ .Title }}</h1>
 	<div class="post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }} - {{ .ReadingTime }} min </div>
+	{{ with .Params.series }}
+	<div class="subhead-list-container">
+		<span class="subhead-label">series:</span>
+		<ul class="subhead-list">
+			{{ range . }}
+			<li> <a href="{{ "series" | absURL }}/{{ . | urlize }}">{{ . }}</a> </li>
+			{{ end }}
+		</ul>
+		{{ end }}
 	{{ with .Params.tags }}
-	<div class="tag-container">
-		<span class="tags-label">tags:</span>
-		<ul id="tags">
+	<div class="subhead-list-container">
+		<span class="subhead-label">tags:</span>
+		<ul class="subhead-list">
 			{{ range . }}
 			<li> <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a> </li>
 			{{ end }}
